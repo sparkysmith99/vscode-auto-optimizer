@@ -1,0 +1,29 @@
+{
+    "name": "Data Science/Analysis",
+    "description": "For Jupyter notebooks, pandas, data analysis, ML projects",
+    "settings": {
+        "python.analysis.typeCheckingMode": "off",
+        "jupyter.askForKernelRestart": false,
+        "notebook.output.textLineLimit": 30,
+        
+        "chat.tools.terminal.autoApprove": {
+            "python": true,
+            "pip install pandas": true,
+            "pip install numpy": true,
+            "pip install matplotlib": true,
+            "pip install jupyter": true,
+            "jupyter notebook": true,
+            "jupyter lab": true
+        },
+        
+        "files.exclude": {
+            "**/.ipynb_checkpoints": true,
+            "**/__pycache__": true
+        }
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
+    ]
+}
