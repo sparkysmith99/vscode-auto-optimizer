@@ -1,0 +1,26 @@
+{
+    "name": "Python Tkinter (GUI/HMI)",
+    "description": "For Python GUI applications, dashboards, HMI systems, industrial controls",
+    "settings": {
+        "python.analysis.typeCheckingMode": "basic",
+        "python.terminal.activateEnvironment": true,
+        
+        "chat.tools.terminal.autoApprove": {
+            "python": true,
+            "pip install pillow": true,
+            "pip install tk": true,
+            "taskkill /F /IM python.exe": true,
+            "taskkill /F /IM pythonw.exe": true
+        },
+        
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/*.pyc": true
+        }
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring"
+    ]
+}
