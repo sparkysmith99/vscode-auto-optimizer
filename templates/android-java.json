@@ -1,0 +1,32 @@
+{
+    "name": "Android/Java Development",
+    "description": "For Android Studio projects, Cordova apps, Gradle builds",
+    "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "gradle.autoDetect": "on",
+        
+        "chat.tools.terminal.autoApprove": {
+            "gradlew": true,
+            "gradlew build": true,
+            "gradlew assembleDebug": true,
+            "adb install": true,
+            "adb devices": true,
+            "adb uninstall": true,
+            "cordova": true,
+            "cordova build android": true,
+            "cordova run android": true,
+            "java": true,
+            "javac": true
+        },
+        
+        "files.exclude": {
+            "**/.gradle": true,
+            "**/build": true
+        }
+    },
+    "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-gradle",
+        "redhat.java"
+    ]
+}
