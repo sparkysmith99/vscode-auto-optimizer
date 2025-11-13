@@ -1,0 +1,32 @@
+{
+    "name": "Web Development (HTML/CSS/JS)",
+    "description": "For web apps, HTML5 applications, mobile hybrid apps",
+    "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "html.format.wrapLineLength": 120,
+        "css.lint.unknownAtRules": "ignore",
+        
+        "chat.tools.terminal.autoApprove": {
+            "npm install": true,
+            "npm start": true,
+            "npm run build": true,
+            "http-server": true,
+            "live-server": true,
+            "node": true
+        },
+        
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/.cache": true,
+            "**/dist": true,
+            "**/build": true
+        }
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ritwickdey.LiveServer"
+    ]
+}
